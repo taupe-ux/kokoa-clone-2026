@@ -2,12 +2,23 @@
 @import "reset.css";
 @import "welcome-header.css";
 @import "variables.css";
+
 /*components*/
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
 
 /*screens*/
 @import "screens/login.css";
-
+@import "screens/friends.css";
 body {
   font-family: "Open Sans", sans-serif;
+  padding-top: 20px;
+  color: #2e363e;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }

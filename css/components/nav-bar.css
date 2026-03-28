@@ -25,11 +25,7 @@
 
 .nav__point {
   display: flex;
-  width: 5px;
-  height: 5px;
-  background-color: tomato;
   position: absolute;
-  border-radius: 50%;
   left: 28px;
   bottom: 28px;
 }

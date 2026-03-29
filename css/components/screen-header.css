@@ -23,3 +23,16 @@
   right: -10px;
   top: -5px;
 }
+
+@keyframes rotategear {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header .fa-gear:hover {
+  animation: rotategear 1s ease-in-out infinite;
+}

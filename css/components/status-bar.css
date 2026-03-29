@@ -1,3 +1,6 @@
+.status_bar .alt-header__statusbar {
+  background-color: #abc1d1;
+}
 .status_bar {
   display: flex;
   justify-content: center;
@@ -5,6 +8,8 @@
   position: fixed;
   top: 0;
   width: 100%;
+
+  z-index: 2;
 }
 
 .status_bar__column {
